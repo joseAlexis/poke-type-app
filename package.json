@@ -1,0 +1,26 @@
+{
+  "name": "poke-type-app",
+  "version": "1.0.0",
+  "description": "Pokémon type: strengths and weaknesses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseAlexis/poke-type-app.git"
+  },
+  "keywords": [
+    "pokemon",
+    "javascript"
+  ],
+  "author": "Jose B.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseAlexis/poke-type-app/issues"
+  },
+  "homepage": "https://github.com/joseAlexis/poke-type-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
