@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon App</title>
+    </head>
+
+    <body>
+        <h1>Pokemon Types</h1>
+        <table id = "pokemonTypes">
+            <tr>
+                <th>Type</th>
+                <th>Weakness</th>
+                <th>Strengths</th>
+            </tr>
+            <tr>
+                <%= types.foreach(function(type) { %>
+                    <td><%= type.name %></td>
+                    <td><%= type.weaknesses %></td>
+                    <td><%= type.strengths %></td>
+                <%= }); %>
+            </tr>
+        </table>
+    </body>
+</html>
