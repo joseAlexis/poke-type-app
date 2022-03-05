@@ -23,15 +23,16 @@ router.get('/', (req, res) => {
 /**
  * Get a pokemon by name
  */
-router.get('/:name', (req, res) => {
-    console.log(`/name`)
+router.get('/name/:value', (req, res) => {
+    const name = (req.params.value).toLowerCase();
+
     fs.readFile(pokemonJSONFile, 'utf8', (err, data) => {
         if (err) throw err;
 
         const pokemons = JSON.parse(data.toString());
 
         const pokemon = pokemons.find(p => {
-            return p.name.trim().toLowerCase() === req.params.name.trim().toLowerCase();
+            return p.name.toLowerCase() === name;
         });
 
         return res.status(200).send(pokemon);
@@ -43,16 +44,16 @@ router.get('/:name', (req, res) => {
  * Get a pokemon by id 
  */
 
-router.get('/:id', (req, res) => {
-    console.log(`/id`)
+router.get('/id/:value', (req, res) => {
+    const id = Number(req.params.value);
+
     fs.readFile(pokemonJSONFile, 'utf8', (err, data) => {
         if (err) throw err;
 
         const pokemons = JSON.parse(data.toString());
 
-        console.log(`req.params.id ${req.params.id}`)
         const pokemon = pokemons.find(p => {
-            return p.id.toString() === req.params.id.toString();
+            return p.id === id;
         });
         return res.status(200).send(pokemon);
     });
