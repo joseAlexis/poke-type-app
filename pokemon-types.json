@@ -1,0 +1,291 @@
+[
+    {
+        "id": 1,
+        "name": "Normal",
+        "immunes": [
+            14
+        ],
+        "weaknesses": [
+            13,
+            17
+        ],
+        "strengths": []
+    },
+    {
+        "id": 2,
+        "name": "Fire",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            3,
+            13,
+            15
+        ],
+        "strengths": [
+            5,
+            6,
+            12,
+            17
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Water",
+        "immunes": [],
+        "weaknesses": [
+            3,
+            5,
+            15
+        ],
+        "strengths": [
+            2,
+            9,
+            13
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Electric",
+        "immunes": [
+            9
+        ],
+        "weaknesses": [
+            4,
+            5,
+            15
+        ],
+        "strengths": [
+            3,
+            10
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Grass",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            5,
+            8,
+            10,
+            12,
+            15,
+            17
+        ],
+        "strengths": [
+            3,
+            9,
+            13
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Ice",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            3,
+            6,
+            17
+        ],
+        "strengths": [
+            5,
+            9,
+            10,
+            15
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Fighting",
+        "immunes": [
+            14
+        ],
+        "weaknesses": [
+            8,
+            10,
+            11,
+            12,
+            18
+        ],
+        "strengths": [
+            1,
+            6,
+            13,
+            16,
+            17
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Poison",
+        "immunes": [
+            17
+        ],
+        "weaknesses": [
+            8,
+            9,
+            13,
+            14
+        ],
+        "strengths": [
+            5,
+            18
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Ground",
+        "immunes": [
+            10
+        ],
+        "weaknesses": [
+            5,
+            12
+        ],
+        "strengths": [
+            2,
+            4,
+            8,
+            13,
+            17
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Flying",
+        "immunes": [],
+        "weaknesses": [
+            4,
+            13,
+            17
+        ],
+        "strengths": [
+            5,
+            7,
+            12
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Psychic",
+        "immunes": [
+            16
+        ],
+        "weaknesses": [
+            11,
+            17
+        ],
+        "strengths": [
+            7,
+            8
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Bug",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            7,
+            8,
+            10,
+            14,
+            17,
+            18
+        ],
+        "strengths": [
+            5,
+            11,
+            16
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Rock",
+        "immunes": [],
+        "weaknesses": [
+            7,
+            9,
+            17
+        ],
+        "strengths": [
+            2,
+            6,
+            10,
+            12
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Ghost",
+        "immunes": [
+            1
+        ],
+        "weaknesses": [
+            16
+        ],
+        "strengths": [
+            11,
+            14
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Dragon",
+        "immunes": [
+            18
+        ],
+        "weaknesses": [
+            17
+        ],
+        "strengths": [
+            15
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Dark",
+        "immunes": [],
+        "weaknesses": [
+            7,
+            16,
+            18
+        ],
+        "strengths": [
+            11,
+            14
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Steel",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            3,
+            4,
+            17
+        ],
+        "strengths": [
+            6,
+            13,
+            18
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Fairy",
+        "immunes": [],
+        "weaknesses": [
+            2,
+            8,
+            17
+        ],
+        "strengths": [
+            7,
+            15,
+            16
+        ]
+    }
+]
